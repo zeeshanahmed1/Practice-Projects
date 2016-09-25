@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+                <!-- Customize your theme here. -->
+                <item name="colorPrimary">#E65100</item>
+                <item name="colorPrimaryDark">#FF7F17</item>
+                <item name="colorAccent">#EF6000</item>
+                <item name="android:colorButtonNormal">#EF6000</item>
+        </style>
+</resources>

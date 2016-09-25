@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    android:background="#FFE0B2"
+    tools:context="com.example.basheerahmed.bussinessapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/burger"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Big Thick Burger(BTB)"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#932424"
+        android:textSize="38dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textSize="18dp"
+        android:textColor="#932424"
+        android:textStyle="bold"
+        android:paddingLeft="18dp"
+        android:text="Our burgers will make your taste buds dance!Enjoy the best grilled meat at BTB"
+        />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:paddingLeft="18dp"
+        android:paddingTop="5dp"
+
+        android:src="@drawable/phone"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#932424"
+        android:text="+92347-2462508"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:paddingTop="10dp"
+        android:paddingLeft="18dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="05dp"
+            android:src="@drawable/email"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#932424"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:text="bigthickburger@gmail.com"
+            android:paddingTop="16dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:paddingLeft="14dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/address"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="14dp"
+            android:paddingRight="5dp"
+            android:textColor="#932424"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:text="Address: Lane 10,Shop No:24,Khayaban-E-Hilal DHA Phase VI karachi,Pakistan."
+            android:paddingTop="15dp"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
